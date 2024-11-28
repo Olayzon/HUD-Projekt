@@ -25,12 +25,7 @@ The HUD connects to a vehicle via an OBD-II adapter module and visualizes real-t
 
 ### Steps
 
-1.  Clone this repository:
-
-```plain
-git clone https://github.com/your-username/hud-project.git
-cd hud-project
-```
+1.  Clone this repository
 
 1.  Install the dependencies:
 
