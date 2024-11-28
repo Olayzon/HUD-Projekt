@@ -7,7 +7,7 @@ import obd
 class TestHUD(unittest.TestCase):
     
     def setUp(self):
-        #Setting up the HUD instance and mocking ther parser to not expect anything
+        #Setting up the HUD instance and mocking the parser to not expect anything
         with patch('argparse.ArgumentParser.parse_args', return_value=MagicMock(debug=False, bottom_orientation=False)):
             self.root = Tk()
             self.hud = HUD(self.root, testing=True)
